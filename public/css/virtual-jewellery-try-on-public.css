@@ -1,0 +1,130 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .modal-dialog{
+    overflow-y: initial !important
+}
+.modal-content{
+    overflow-y: auto;
+}
+#TryOnModal{
+    
+}
+#imageCanvas{
+    
+    z-index: 1;
+}
+.fixed_images{
+    max-width: 100%;
+    max-height: 100%;
+     background-color: transparent !important;
+border: none !important;
+    
+}
+#galssimagediv{
+    position: absolute;
+    z-index: 3;
+    left: 67%;
+    top: 46%;
+    width: 7%;
+    cursor:all-scroll;
+    background-color: transparent;
+    border: 0px;
+} 
+#galssimagediv_ear_2{
+    position: absolute;
+    z-index: 3;
+    left: 29%;
+    top: 46%;
+    width: 7%;
+    cursor:all-scroll;
+    background-color: transparent;
+    border: 0px;
+} 
+#galssimagediv_neck{
+    position: absolute;
+    z-index: 3;
+    left: 30%;
+    top: 65%;
+    width: 42%;
+    cursor:all-scroll;
+    background-color: transparent;
+    border: 0px;
+}
+#galssimagediv_head{
+    position: absolute;
+    z-index: 3;
+    left: 45%;
+    top: 13%;
+    width: 12%;
+    cursor:all-scroll;
+    background-color: transparent;
+    border: 0px;
+}
+#galssimage{
+background: transparent;
+    border: 0px;
+    }
+@media (min-width: 900px){
+.try_on_popup {
+width: 60%;
+}
+}
+
+.row{
+    margin-left: 0px;
+}
+.picture {
+  position: relative;
+  height: 26px;
+  font-size: 33px;
+    cursor:pointer;
+
+}
+#imageLoader {
+    display: none;
+  width: 26px;
+  height: 26px;
+  margin-right: 100px;
+  opacity: 0;
+  filter: alpha(opacity=0); /* IE 5-7 */
+}
+.rotate-gly{
+   transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+}
+.cart_button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #191212;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.cart_button :hover {
+    color: white;
+}
+.side_view_btn {
+    text-decoration: none;
+    position:absolute;
+    bottom: 4px;
+    right:20px;
+    padding: 1px 10px 2px 6px;
+    font: 14px Verdana, sans-serif;
+    cursor:pointer;
+}
+.side_view_btn:hover{
+    color:  #333;
+    background-color:rgba(255, 255, 255, 0.02);
+    text-decoration: none;
+}
+.savendownload{
+    position: absolute;
+    top: 5px;
+    right: 42px
+}
