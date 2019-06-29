@@ -60,45 +60,6 @@ try {
             j(active_item).width( width + (width * 0.05)) ;
             
         }
-        function show_side(anchor){
-            var front_uploaded = j('#front_uploaded');
-            var side_uploaded = j('#side_uploaded');
-            var main_image = j('#imageCanvas');
-            var view=j(anchor).text();
-            if(view=='Side'){
-                global_view='Side';
-                front_uploaded.css('display','none');
-                if(video_streaming==false){
-                    if(side_uploaded_flag==true){
-                        main_image.css('display','none');
-                        side_uploaded.css('display','block');
-                        }
-                    else{
-                        main_image.css('display','block');
-                        document.getElementById('imageCanvas').src='<?php echo plugins_url();?>'+'/try_on_woocommerece-Premium/public/images/side_man.jpg';
-                    }
-                }
-                document.getElementById('galssimage').src=tryOnSideImgUrl;
-                j('#side_btn').html('Front');
-            }
-            else{
-                global_view='Front';
-                side_uploaded.css('display','none');
-                if(video_streaming==false){
-                    if(front_uploaded_flag==true){
-                        main_image.css('display','none');
-                        front_uploaded.css('display','block');
-                        }
-                    else{
-                     main_image.css('display','block');
-                        document.getElementById('imageCanvas').src='<?php echo plugins_url();?>'+'/try_on_woocommerece-Premium/public/images/man_face.jpg';
-                    }
-                }
-                document.getElementById('galssimage').src=tryOnImgUrl;
-                j('#side_btn').html('Side');
-            }
-        }
-       
         function save_image(el){
             j(el).css("display","none");
             var download_link=j("#linkimage");
