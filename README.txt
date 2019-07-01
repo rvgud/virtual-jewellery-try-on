@@ -26,7 +26,7 @@ Vitual Jewellery Try-On jewelFit allows customers to virtually try jewellery pro
 
 == Premium Version ==
 
-- Available at[JewelFit](https://www.dugudlabs.com/Jewelfit)
+- Available at[JewelFit](https://www.dugudlabs.com/specfit/jewelfit)
 - Upload Unlimited Jewellery products
 - Resizable Eyewear
 - Customers can upload their image
